@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_random" >
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_setting_item"
+        android:gravity="center_vertical"
+        android:minHeight="80dp"
+        android:orientation="vertical"
+        android:padding="12dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_setting_adapter_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:text="@string/set_noti_mode"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F0FFFFFF" />
+
+            <com.jzj.alarm.EffectTextView
+                android:id="@+id/tx_setting_adapter_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@string/theme_random"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#EEFFFFFF" />
+        </LinearLayout>
+
+        <com.jzj.alarm.EffectTextView
+            android:id="@+id/tx_setting_adapter_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#D0FFFFFF" />
+    </LinearLayout>
+
+</FrameLayout>

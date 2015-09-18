@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/alarm_start_bg"
+    android:orientation="vertical"
+    tools:ignore="NestedWeights" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:background="@color/bg_grey" >
+
+        <TextView
+            android:id="@+id/tx_alarm_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/bg_random"
+            android:textSize="30sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_alarm_time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="6"
+        android:background="@color/bg_random"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tx_alarm_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alarm_time"
+            android:textColor="#ffffffff"
+            android:textSize="70sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alarm_banner"
+            android:textColor="#ffffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="2" >
+
+        <Button
+            android:id="@+id/bn_alarm_delay"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="#ededed"
+            android:text="@string/alarm_delay"
+            android:textColor="@color/bg_random"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bn_splitter"
+            android:contentDescription="@null"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/bn_alarm_stop"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="#ededed"
+            android:text="@string/alarm_pause"
+            android:textColor="@color/bg_random"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

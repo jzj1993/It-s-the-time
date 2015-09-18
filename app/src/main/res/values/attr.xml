@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- HexViewSuper -->
+    <declare-styleable name="HexViewSuper">
+        <attr name="bg_color" format="color" />
+        <attr name="text_enable" format="boolean" />
+        <attr name="text" format="string" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size_percent" format="fraction" />
+    </declare-styleable>
+
+    <!-- HexCheckBox -->
+    <declare-styleable name="HexCheckBox">
+        <attr name="checked" format="boolean" />
+    </declare-styleable>
+
+    <!-- HexView -->
+    <declare-styleable name="HexView">
+        <attr name="icon" format="reference" />
+        <attr name="icon_enable" format="boolean" />
+        <attr name="icon_size_percent" format="fraction" />
+    </declare-styleable>
+
+    <!-- CircleView -->
+    <declare-styleable name="CircleView">
+        <attr name="arc_color" format="color" />
+        <attr name="circle_color" format="color" />
+        <attr name="tx_color" format="color" />
+        <attr name="step_val" format="integer" />
+        <attr name="max_val" format="integer" />
+        <attr name="cur_val" format="integer" />
+    </declare-styleable>
+
+</resources>

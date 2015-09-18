@@ -1,0 +1,183 @@
+<resources>
+
+    <!-- app -->
+    <string name="app_name">It\'s the time</string>
+    <string name="app_voice_add">AddAlarm</string>
+    <string name="app_about">本应用由PurpleSword开发，\n部分素材来自互联网，\n语音技术由科大讯飞提供。\n有任何问题或建议，请发邮件至\njiangzijian1993@qq.com\n</string>
+    <string name="app_email_address">jiangzijian1993@qq.com</string>
+    <!-- exception -->
+    <string name="exception_dialog_title">应用发生异常</string>
+    <string name="exception_dialog_msg">很抱歉，上次应用发生错误异常退出。\n是否报告错误以帮助开发者改进应用？\n非常感谢您的支持。</string>
+    <string name="exception_send_email_title">发送邮件…</string>
+    <string name="exception_email_subject">错误报告</string>
+    <string name="exception_email_content_prefix">\n向开发者报告错误，相关信息如下。\n\n</string>
+    <!-- common -->
+    <string name="add">添加</string>
+    <string name="edit">修改</string>
+    <string name="del">删除</string>
+    <string name="ok">确定</string>
+    <string name="got_it">我知道了</string>
+    <string name="cancel">取消</string>
+    <string name="menu">菜单</string>
+    <string name="setting">设置</string>
+    <string name="please_input">请输入</string>
+    <string name="confirm_del">确认删除?</string>
+    <string name="confirm_clear">确认清除?</string>
+    <string name="confirm_add">确认添加?</string>
+    <string name="confirm_edit">确认修改?</string>
+    <string name="error_occured">发生错误</string>
+    <!-- alarm -->
+    <string name="alarm_no_notes">无备注</string>
+    <string name="alarm_mode_normal">普通模式</string>
+    <string name="alarm_mode_wakeup">起床模式</string>
+    <string name="alarm_repeat_once">从不重复</string>
+    <string name="alarm_repeat_date">指定日期</string>
+    <string name="alarm_repeat_weekday">工作日重复</string>
+    <string name="alarm_repeat_weekend">周末重复</string>
+    <string name="alarm_repeat_everyday">每天重复</string>
+    <string name="alarm_repeat_custom">自定义重复</string>
+    <string name="alarm_repeat_mon">一</string>
+    <string name="alarm_repeat_tue">二</string>
+    <string name="alarm_repeat_wed">三</string>
+    <string name="alarm_repeat_thu">四</string>
+    <string name="alarm_repeat_fri">五</string>
+    <string name="alarm_repeat_sat">六</string>
+    <string name="alarm_repeat_sun">日</string>
+    <!-- notification -->
+    <string name="noti_normal_today">今天 HH:mm E(普通模式)</string>
+    <string name="noti_wakeup_today">今天 HH:mm E(起床模式)</string>
+    <string name="noti_normal_tomorrow">明天 HH:mm E(普通模式)</string>
+    <string name="noti_wakeup_tomorrow">明天 HH:mm E(起床模式)</string>
+    <string name="noti_normal_day_after_tomorrow">后天 HH:mm E(普通模式)</string>
+    <string name="noti_wakeup_day_after_tomorrow">后天 HH:mm E(起床模式)</string>
+    <string name="noti_normal_this_week">本E HH:mm (普通模式)</string>
+    <string name="noti_wakeup_this_week">本E HH:mm (起床模式)</string>
+    <string name="noti_normal_other">yyyy-MM-dd HH:mm E(普通模式)</string>
+    <string name="noti_wakeup_other">yyyy-MM-dd HH:mm E(起床模式)</string>
+    <string name="noti_no_alarm">当前无闹铃</string>
+    <!-- first run -->
+    <string name="first_run">首次运行</string>
+    <string name="first_run_main">长按按钮可查看更多选项</string>
+    <string name="first_run_edit">小提示：试试长按\n上面这几个按钮~</string>
+    <!-- guide -->
+    <string name="guide_ui_banner">焕然一新的界面\n颠覆您的思维</string>
+    <string name="guide_ui_detail">多边形按钮简洁实用\n多种配色主题随心换\n多彩生活，创意无限</string>
+    <string name="guide_alarm_banner">创新的闹铃流程\n告别懒床，重新设计生活</string>
+    <string name="guide_alarm_detail">各项参数值也可自行调整</string>
+    <string name="guide_exe_banner">早起多锻炼，生活更健康</string>
+    <string name="guide_exe_detail">闹铃计步合二为一\n倡导健康生活习惯</string>
+    <string name="guide_voice_banner">不想动手？语音识别帮你搞定~\n方便快捷，无限可能</string>
+    <string name="guide_voice_detail">@string/voice_sample</string>
+    <string name="guide_its_the_time_banner">时间宝贵，分秒必争</string>
+    <!-- main -->
+    <string name="main_add_alarm">新增闹铃</string>
+    <string name="main_change_theme">切换主题：</string>
+    <string name="voice_please_speak">请说话</string>
+    <string name="voice_sample_title">示例：</string>
+    <string name="voice_sample">半小时后提醒我开会；\n周三下午提醒我交水费；\n每周末早上8点叫我起床；\n明年2月14日提醒我过节；\n……\n(语音技术由科大讯飞提供)</string>
+    <string name="voice_speak_finished">说完了</string>
+    <string name="voice_net_error">网络连接出错</string>
+    <string name="voice_no_result">没有识别结果</string>
+    <!-- alarm edit -->
+    <string name="edit_set_time_title">在圆环上滑动快速设置时间</string>
+    <string name="edit_select_date">选择闹铃日期</string>
+    <string name="edit_no_sensor">您的设备没有加速度传感器，不支持起床模式，请设为普通模式！</string>
+    <string name="edit_alarm_added">闹铃已添加</string>
+    <string name="edit_alarm_edited">闹铃已修改</string>
+    <string name="edit_alarm_deleted">闹铃已删除</string>
+    <string name="edit_alarm_undo">闹铃已恢复</string>
+    <string name="edit_alarm_failed_to_add">闹铃添加失败</string>
+    <string name="edit_alarm_failed_to_edit">闹铃修改失败</string>
+    <string name="edit_alarm_failed_to_del">闹铃删除失败</string>
+    <string name="edit_alarm_failed_to_undo">闹铃恢复失败</string>
+    <string name="edit_no_undo_data">无可恢复数据</string>
+    <!-- alarm start -->
+    <string name="alarm_time">08:35</string>
+    <string name="alarm_banner">Time waits for no man.</string>
+    <string name="alarm_stop">停止</string>
+    <string name="alarm_pause">暂停</string>
+    <string name="alarm_delay">推迟</string>
+    <string name="alarm_confirm_stop">确认停止？</string>
+    <string name="alarm_confirm_pause">确认暂停？</string>
+    <string name="alarm_confirm_delay">确认推迟？</string>
+    <string name="alarm_stopped">闹铃已停止</string>
+    <string name="alarm_paused">闹铃已暂停</string>
+    <string name="alarm_delay_unlimited_times">闹铃已推迟</string>
+    <string name="alarm_delay_left_times">闹铃已推迟%1$d次，还可推迟%2$d次</string>
+    <string name="alarm_delay_no_times_left">闹铃已推迟%1$d次，无法再推迟</string>
+    <!-- alarm wait -->
+    <string name="alarm_wait_sensor_failure">加速度传感器启动失败</string>
+    <string name="alarm_wait_locked">闹铃已锁定</string>
+    <string name="alarm_wait_unlocked">闹铃已解除</string>
+    <string name="alarm_wait_cur_time">当前时间：</string>
+    <string name="alarm_wait_remain_time">起床剩余时间 %1$2d:%2$02d</string>
+    <string name="alarm_wait_exe_to_unlock">起床运动以解除闹铃</string>
+    <string name="alarm_wait_cur_steps">已运动%1$d步，共需要%2$d步</string>
+    <!-- pedometer -->
+    <string name="pedometer_no_sensor">您的设备没有加速度传感器，无法设置！</string>
+    <string name="pedometer_cur_sens">当前灵敏度:%1$d</string>
+    <string name="pedometer_cur_steps">当前检测到的步数:%1$d</string>
+    <string name="pedometer_help">先设置适当的灵敏度，\n再运动测试设置是否合适。\n范围1~200，默认值为30。\n数值越小越灵敏。</string>
+    <!-- setting item -->
+    <string name="set_radio_0">应用设置</string>
+    <string name="set_radio_1">闹铃设置</string>
+    <!-- ui -->
+    <string name="set_main_voice">首页新增按钮</string>
+    <string name="set_noti_mode">状态栏</string>
+    <string name="set_color_theme">配色主题</string>
+    <!-- reminder -->
+    <string name="set_vibrate">闹铃震动</string>
+    <string name="set_crescendo">闹铃音渐强</string>
+    <string name="set_alarm_tone">闹铃音</string>
+    <string name="set_alarm_tone_tips">闹铃启动时铃音</string>
+    <string name="set_clock_tone">时钟滴答声</string>
+    <string name="set_clock_tone_tips">起床模式下暂停闹铃，倒计时等待起床提示音</string>
+    <string name="set_alarm_locked_tone">闹铃锁定音</string>
+    <string name="set_alarm_locked_tone_tips">倒计时结束仍未及时起床，将播放此铃音</string>
+    <!-- time -->
+    <string name="set_max_delay">最大推迟次数</string>
+    <string name="set_max_delay_tips">设为0则不限次数(范围0~120)</string>
+    <string name="set_delay_time">闹铃推迟时长</string>
+    <string name="set_delay_time_tips">每次推迟闹铃，等待时长(范围1~120)</string>
+    <string name="set_pause_time">闹铃暂停等待</string>
+    <string name="set_pause_time_tips">闹铃暂停，倒计时等待起床时长(范围1~120)</string>
+    <!-- pedometer -->
+    <string name="set_sensitivity">计步灵敏度</string>
+    <string name="set_sensitivity_tips">点击进行校准(范围1~200)</string>
+    <string name="set_unlock_steps">解锁步数</string>
+    <string name="set_unlock_steps_tips">起床后解锁闹铃，需运动步数</string>
+    <!-- help -->
+    <string name="set_tips">睡眠相关知识</string>
+    <string name="set_guide">引导界面</string>
+    <string name="set_about">关于</string>
+    <!-- reset -->
+    <string name="set_first_run">启用新手引导</string>
+    <string name="set_reset_settings">重置全部设置</string>
+    <!-- setting value -->
+    <string name="set_play_error">预览铃音出错</string>
+    <!-- setting value time -->
+    <string name="minute">分钟</string>
+    <!-- setting value confirm toast -->
+    <string name="set_first_run_cleared">新手引导已重新启用</string>
+    <string name="set_settings_cleared">清除全部设置完成</string>
+    <!-- setting value clock tone -->
+    <string name="set_clock_tone_clock">钟声</string>
+    <string name="set_clock_tone_tick">滴答声</string>
+    <string name="set_clock_tone_water">水滴</string>
+    <string name="set_clock_tone_none">无</string>
+    <!-- setting value tone -->
+    <string name="set_tone_default">默认</string>
+    <string name="set_tone_internal">系统铃音</string>
+    <string name="set_tone_external">媒体铃音</string>
+    <!-- setting value main voice -->
+    <string name="set_main_voice_add">语音添加</string>
+    <string name="set_main_normal_add">常规添加</string>
+    <!-- setting value boolean -->
+    <string name="set_on">开</string>
+    <string name="set_off">关</string>
+    <!-- setting value noti -->
+    <string name="set_noti_mode_always">始终显示</string>
+    <string name="set_noti_mode_necessary">有闹铃时显示</string>
+    <string name="set_noti_mode_never">从不显示</string>
+
+</resources>

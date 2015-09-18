@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="bg_grey">#FFE0E0E0</color>
+    <color name="bg_random">#ff08aad9</color>
+    <color name="alarm_start_main">#2f8cec</color>
+    <color name="alarm_start_bg">#b6b8b9</color>
+    <color name="dialog_button">#44FFFFFF</color>
+
+    <integer-array name="colors_guide_bg">
+        <item>0xff8975a7</item>
+        <item>0xff429bae</item>
+        <item>0xff2bbf97</item>
+        <item>0xffd4af4b</item>
+        <item>0xffe46c7d</item>
+        <item>0x88ffffff</item>
+    </integer-array>
+    <integer-array name="colors_random_bg">
+        <item>0xff08aad9</item>
+        <item>0xfff6546b</item>
+        <item>0xff7f81ce</item>
+        <item>0xff73b23d</item>
+        <item>0xff00bdcd</item>
+        <item>0xfff58833</item>
+        <item>0xff00b17d</item>
+        <item>0xffed9f19</item>
+        <item>0xffc771d4</item>
+        <item>0xff4c8cd4</item>
+        <item>0xfffa6a48</item>
+        <item>0xffddb619</item>
+    </integer-array>
+
+    <string name="theme_random">随机</string>
+
+    <!-- theme name v2 -->
+    <string name="theme_sweet_candy">甜蜜糖果</string>
+    <string name="theme_girl_in_the_rain">雨中少女</string>
+    <string name="theme_sunset_blood_red">残阳如血</string>
+    <string name="theme_strawberry">草莓飘香</string>
+    <string name="theme_sakura">烂漫樱花</string>
+    <string name="theme_bright_moon">皓月当空</string>
+    <string name="theme_spring_in_the_air">春意盎然</string>
+    <string name="theme_firework">璀璨烟花</string>
+    <string name="theme_mountain">高山峻岭</string>
+    <string name="theme_flowers">百花争艳</string>
+    <string name="theme_mountain_greenery">青山绿树</string>
+    <string name="theme_mystic_sea">神秘海洋</string>
+
+    <!-- theme colors v2 -->
+    <integer-array name="colors_sweet_candy">
+        <item>0xfffa6a48</item>
+        <item>0xfff58833</item>
+        <item>0xffed9f19</item>
+        <item>0xffddb619</item>
+        <item>0xff73b23d</item>
+        <item>0xff00b17d</item>
+        <item>0xff00bdcd</item>
+        <item>0xff08aad9</item>
+        <item>0xff4c8cd4</item>
+        <item>0xff7f81ce</item>
+        <item>0xffc771d4</item>
+        <item>0xfff6546b</item>
+    </integer-array>
+    <integer-array name="colors_girl_in_the_rain">
+        <item>0xff66c1c4</item>
+        <item>0xff46a9bd</item>
+        <item>0xff5e60ad</item>
+        <item>0xffde5b91</item>
+        <item>0xffd971a0</item>
+        <item>0xff726eb8</item>
+    </integer-array>
+    <integer-array name="colors_sunset_blood_red">
+        <item>0xffe7582a</item>
+        <item>0xffce3838</item>
+        <item>0xfffda441</item>
+        <item>0xfff5d371</item>
+        <item>0xffcb6348</item>
+        <item>0xff624176</item>
+        <item>0xff7d3e4a</item>
+    </integer-array>
+    <integer-array name="colors_strawberry">
+        <item>0xfff25300</item>
+        <item>0xfff98c37</item>
+        <item>0xfff5b883</item>
+        <item>0xffadc81e</item>
+        <item>0xff59ab15</item>
+        <item>0xff3f7629</item>
+        <item>0xffb1c823</item>
+        <item>0xfffa9d33</item>
+    </integer-array>
+    <integer-array name="colors_sakura">
+        <item>0xff296aa9</item>
+        <item>0xffb35b88</item>
+        <item>0xffdeaed0</item>
+        <item>0xff8b7b9c</item>
+        <item>0xffcdb7be</item>
+    </integer-array>
+    <integer-array name="colors_bright_moon">
+        <item>0xff0d1f71</item>
+        <item>0xff2943a4</item>
+        <item>0xff4d73c9</item>
+        <item>0xff7aaceb</item>
+        <item>0xffe3da76</item>
+        <item>0xff2943a4</item>
+    </integer-array>
+    <integer-array name="colors_spring_in_the_air">
+        <item>0xff73bd7d</item>
+        <item>0xffb26e62</item>
+        <item>0xffb29d88</item>
+        <item>0xffa3a49c</item>
+        <item>0xff539825</item>
+    </integer-array>
+    <integer-array name="colors_firework">
+        <item>0xff824824</item>
+        <item>0xffd35b36</item>
+        <item>0xfff89151</item>
+        <item>0xffffd18c</item>
+        <item>0xffe3da55</item>
+        <item>0xfff89151</item>
+    </integer-array>
+    <integer-array name="colors_mountain">
+        <item>0xff93a8c3</item>
+        <item>0xffbdbec0</item>
+        <item>0xff67645f</item>
+        <item>0xff455052</item>
+        <item>0xff55789a</item>
+    </integer-array>
+    <integer-array name="colors_flowers">
+        <item>0xff5b9425</item>
+        <item>0xffb3b026</item>
+        <item>0xffbb528e</item>
+        <item>0xffd64e46</item>
+        <item>0xff7c36bf</item>
+    </integer-array>
+    <integer-array name="colors_mountain_greenery">
+        <item>0xff80a6cf</item>
+        <item>0xff418f85</item>
+        <item>0xff618b12</item>
+        <item>0xff625e59</item>
+        <item>0xff9c8c73</item>
+        <item>0xff537382</item>
+    </integer-array>
+    <integer-array name="colors_mystic_sea">
+        <item>0xff0d9bd8</item>
+        <item>0xff1e69d5</item>
+        <item>0xff0ba74b</item>
+        <item>0xff057170</item>
+        <item>0xffa75437</item>
+        <item>0xff8c881c</item>
+        <item>0xffd1d03f</item>
+        <item>0xff7a55bd</item>
+    </integer-array>
+
+</resources>

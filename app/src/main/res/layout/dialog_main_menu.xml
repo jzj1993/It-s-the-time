@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/bn_main_menu_add"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_pop_button"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_add" />
+
+    <ImageButton
+        android:id="@+id/bn_main_menu_voice_add"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/selector_pop_button"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_voice" />
+
+    <ImageButton
+        android:id="@+id/bn_main_menu_theme"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/selector_pop_button"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_theme" />
+
+    <ImageButton
+        android:id="@+id/bn_main_menu_setting"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/selector_pop_button"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_setting" />
+
+</LinearLayout>

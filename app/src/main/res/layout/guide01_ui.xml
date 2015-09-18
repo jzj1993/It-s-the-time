@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_random" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="30dp"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/guide01_ui" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/guide_ui_banner"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/tx_guide_arrow"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.9"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/guide01_ui_arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tx_guide_arrow"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/guide_ui_detail"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#C0FFFFFF" >
+    </TextView>
+
+</RelativeLayout>

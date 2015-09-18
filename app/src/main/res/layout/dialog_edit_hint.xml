@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#EEF4DEC4"
+    android:minHeight="60dp"
+    android:minWidth="280dp"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@null"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:src="@drawable/ic_edit_arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/first_run_edit"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#298839" />
+
+    <TextView
+        android:id="@+id/tx_edit_hint_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/dialog_button"
+        android:gravity="center"
+        android:minWidth="140dp"
+        android:padding="10dp"
+        android:text="@string/got_it"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#C38D0B" />
+
+</LinearLayout>

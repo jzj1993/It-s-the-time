@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_edit"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_grey" >
+
+    <com.jzj.alarm.HexViewGroup
+        xmlns:myattr="http://schemas.android.com/apk/res/com.jzj.alarm"
+        android:id="@+id/hexgroup_edit_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutAnimation="@anim/layout_anim_scale" >
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#F1969F"
+            myattr:checked="false"
+            myattr:text="12"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="20%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#F1969F"
+            myattr:checked="false"
+            myattr:text="35"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="20%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#68B620"
+            myattr:checked="false"
+            myattr:text="普通\n模式"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="15%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#68B620"
+            myattr:checked="false"
+            myattr:text="从不\n重复"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="15%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#68B620"
+            myattr:checked="false"
+            myattr:text="备注\n..."
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="12%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#60C5A5"
+            myattr:text="MON"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="18%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_tue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#60C5A5"
+            myattr:text="TUE"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="18%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#60C5A5"
+            myattr:text="WED"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="18%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#60C5A5"
+            myattr:text="THU"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="18%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#60C5A5"
+            myattr:text="FRI"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="18%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#E18954"
+            myattr:text="SAT"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="18%" />
+
+        <com.jzj.alarm.HexCheckBox
+            android:id="@+id/hex_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            myattr:bg_color="#E18954"
+            myattr:text="SUN"
+            myattr:text_color="#FFFFFF"
+            myattr:text_size_percent="18%" />
+    </com.jzj.alarm.HexViewGroup>
+
+</ScrollView>

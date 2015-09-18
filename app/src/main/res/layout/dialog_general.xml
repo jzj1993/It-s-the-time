@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_random"
+    android:gravity="center_horizontal"
+    android:minHeight="60dp"
+    android:minWidth="280dp"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tx_dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tx_dialog_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="5dp"
+        android:text="@string/voice_sample_title"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/ed_dialog_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:alpha="0.8"
+        android:background="@drawable/editbox_background_normal"
+        android:inputType="text"
+        android:visibility="gone" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/bn_dialog_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/bn_dialog_ok"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/dialog_button"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:padding="4dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_ok" />
+
+        <ImageView
+            android:id="@+id/bn_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/dialog_button"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:padding="4dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_cancel"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
